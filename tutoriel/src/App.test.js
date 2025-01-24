@@ -4,7 +4,7 @@ import Darryl from './Darryl';
 import Formulaire from './Formulaire';
 
 test('renders learn react link', () => {
-  render(<Darryl />);
+  render(<Formulaire />);
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
